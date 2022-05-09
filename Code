@@ -1,6 +1,10 @@
+
+
 Project Lab Code
 
+ssh bhuang11@129.153.108.75
 
+bhuang11
 
 curl 'https://csula-my.sharepoint.com/personal/bhuang11_calstatela_edu/_layouts/15/download.aspx?UniqueId=170f9b13%2D29df%2D4ca8%2D8d11%2D3819e2459479' \
   -H 'authority: csula-my.sharepoint.com' \
@@ -16,8 +20,28 @@ curl 'https://csula-my.sharepoint.com/personal/bhuang11_calstatela_edu/_layouts/
   -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1' \
   --compressed --output collisionclean.csv
 
+ls -al
 
+hdfs dfs -mkdir Group2 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS collisionclean (`number_of_records` STRING, `collision_date` STRING, `county_location` STRING, `latitude` DECIMAL(8,6), `longitude` DECIMAL(9,6), `other_injury_count` STRING, `pedestrian action` STRING, `population` BIGINT, `process_date` STRING, `severe_injury_count` INT, `type_of_collision` STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LOCATION '/user/bhuang11/Group2/collisionclean.csv ' TBLPROPERTIES ("skip.header.line.count" = "1");
+hdfs dfs -put collisionclean.csv Group2
 
+hdfs dfs -ls
 
+Beeline
+
+show databases;
+
+create database IF NOT EXISTS bhuang11;
+
+use bhuang11;
+
+DROP TABLE IF EXISTS collisionclean;
+
+CREATE EXTERNAL TABLE IF NOT EXISTS collisionclean (`number_of_records` STRING, `collision_date` STRING, `county_location` STRING, `latitude` DECIMAL(8,6), `longitude` DECIMAL(9,6), `other_injury_count` STRING, `pedestrian action` STRING, `population` BIGINT, `process_date` STRING, `severe_injury_count` INT, `type_of_collision` STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LOCATION "/user/csanche8/group2" TBLPROPERTIES ("skip.header.line.count" = "1");
+
+show tables;
+
+select * from collisionclean limit 3;
+
+$ scp bhuang11@129.153.108.75:~/collisionclean.csv  .
