@@ -1,0 +1,23 @@
+Project Lab Code
+
+
+
+curl 'https://csula-my.sharepoint.com/personal/bhuang11_calstatela_edu/_layouts/15/download.aspx?UniqueId=170f9b13%2D29df%2D4ca8%2D8d11%2D3819e2459479' \
+  -H 'authority: csula-my.sharepoint.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: MicrosoftApplicationsTelemetryDeviceId=a751c318-42ff-4f4d-a40c-eda02fa8e0e0; MicrosoftApplicationsTelemetryFirstLaunchTime=2022-02-17T06:51:55.498Z; PowerPointWacDataCenter=US1; WacDataCenter=US1; rtFa=N5c9UC+8uH02bZjMs+zPgNUWrXjVzImUiN/UJvChLEYmMUIxMDA4ODktNEE3Qi00REMyLUFFRDItRDQ4QjkwQzcyQ0Q1IzEzMjk2NTI1MDkwMzM5OTU4OCNFMDgxM0JBMC02MERDLUMwMDAtRTIxMC1EQzQxMTM2MzhDRTMjQkhVQU5HMTElNDBDQUxTVEFURUxBLkVEVTmfBXVuwLDYdkivrLglxo3dueyknJ8jnmNd4sRXkTAYw7APCA0KscePyg/xy1CEJwVtsFZPPAMRz2ebMW20nSazTpb7dVMwWHqwQLhJhFTgJM64Al2ogys4bOv8CeOnoLOdTBWxY2W2Bn7wf2eQNo8krphzisOLtcjaFc9/9p7S1u/oMCjhOZ1cmDQae1D3G0R0h/cFgx5a8trzPyqQdfeV1RLBxPAL7ym4mMASKJTQcEM8VH3nfu0moEHSegH80PxFqXm77AtvdGrwDKIOawxpafaBDG7SPVdZCZszdWSmHbWqOvyawqVrZq1hxY1VIE5oTt7s1D2D8Dd+5KJTyaqXAAAA; odbn=1; KillSwitchOverrides_enableKillSwitches=; KillSwitchOverrides_disableKillSwitches=; cucg=1; mobile=1; ExcelWacDataCenter=US1; FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjEyLDBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMDgxYzJmMThhQGxpdmUuY29tLDAjLmZ8bWVtYmVyc2hpcHxiaHVhbmcxMUBjYWxzdGF0ZWxhLmVkdSwxMzI5NjUyNTA3OTAwMDAwMDAsMTMyMzMzODc0ODUwMDAwMDAwLDEzMjk2OTkzODQ0MjQ2Njg3MCw3MS45Mi4xOTUuMTE1LDMsMWIxMDA4ODktNGE3Yi00ZGMyLWFlZDItZDQ4YjkwYzcyY2Q1LCw1YzZhZTIzMS0yMmRkLTRjNTEtYjY5OS1kMDhiOTIwMGJjNGQsZTA4MTNiYTAtNjBkYy1jMDAwLWUyMTAtZGM0MTEzNjM4Y2UzLGVkYTQzYmEwLWIwZjQtYzAwMC1kZTJmLTI3MDU2NmE4MTE1OCwsMCwxMzI5NjU2NTQ0NDE4NDE4MjcsMTMyOTY4MjEwNDQxODQxODI3LCwsZXlKNGJYTmZZMk1pT2lKYlhDSkRVREZjSWwwaUxDSjRiWE5mYzNOdElqb2lNU0lzSW5CeVpXWmxjbkpsWkY5MWMyVnlibUZ0WlNJNkltSm9kV0Z1WnpFeFFHTmhiSE4wWVhSbGJHRXVaV1IxSWl3aWRYUnBJam9pTm5wcFFrSkpkREkyUlV0eU5uRm1PRTlIWVV0QlFTSjksMjY1MDQ2Nzc0Mzk5OTk5OTk5OSwxMzI5NjUyNTA4OTAwMDAwMDAsNGZkY2NiOWUtYjZlZS00NDI0LWI4MTUtZjg5ZmE5MDY2YzMyLCwsLCwsMCwsajk3eUxCLzhubW9iSG5SSFBqaWxZbE9Fb3pBanNzRzc5cS9HT2VIR3FUc09neG9wSFJDdEgxbm9NaGJqSVFiWi9XZFZyWHArTHpZTlBVajJobE8vRG8wcUI4SXpuSG51aGdtNEhoWU9Ld0NSZnlEYVB4bStUaVpBN241WGN3WTZvSytiZlN2MGYwaHE4K3dOUk9pOW9uWnlmWnpBSkZmUWZUNUdNOHRzK1JIWXJxTmxSWVJaRWYzZ0xJdEo0ZGt4V0VqRlBqSUJtQ2NWN204VTFHaGtKSzBVa1ZPWXRrM1M2Y21wcE84aWJvL29XVFVzOUs2bzJmREZHTVlwc2NFbEdwcXFMRXB4amptVEJGOEZlMkxDWTc5WkhJbHpleFBsbituSnpPU2UxYlIrU3dDSDMyNW5VY2ZsV2gvRG4xYUhqaWEzZUIvREpJZ3VuU3NoN3prVFVnPT08L1NQPg==' \
+  -H 'referer: https://csula-my.sharepoint.com/personal/bhuang11_calstatela_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhuang11%5Fcalstatela%5Fedu%2FDocuments%2FProject%20Files' \
+  -H 'sec-fetch-dest: iframe' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'service-worker-navigation-preload: true' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1' \
+  --compressed --output collisionclean.csv
+
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS collisionclean (`number_of_records` STRING, `collision_date` STRING, `county_location` STRING, `latitude` DECIMAL(8,6), `longitude` DECIMAL(9,6), `other_injury_count` STRING, `pedestrian action` STRING, `population` BIGINT, `process_date` STRING, `severe_injury_count` INT, `type_of_collision` STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LOCATION '/user/bhuang11/Group2/collisionclean.csv ' TBLPROPERTIES ("skip.header.line.count" = "1");
+
+
